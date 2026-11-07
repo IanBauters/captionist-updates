@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Captionist</title>
+    <item>
+      <title>Captionist 1.0 β2</title>
+      <pubDate>Sat, 07 Nov 2026 14:52:50 GMT</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0 β2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+  <li>Captionist now updates itself: choose Captionist → Check for Updates…, or let it check once a day.</li>
+  <li>The Extract / Clean &amp; Translate switch looks right on macOS 26 and later.</li>
+  <li>Extracting several tracks from one video is faster: Captionist now reads the file once for all of them, then turns them into SRT one after the other.</li>
+  <li>The Open button is now a text button at the right of the toolbar.</li>
+  <li>Choose the file name yourself: type it next to “Save as”, for example “Title (2019)”, and get “Title (2019).de.forced.srt”. Two-letter (de) or three-letter (deu) language codes, remembered for next time.</li>
+  <li>AI translation and proofreading are faster: Captionist now sends up to three batches at once.</li>
+  <li>The API key field in Clean &amp; Translate is easier to find.</li>
+  <li>Licence keys are shorter. Keys you already have keep working.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/IanBauters/captionist-updates/releases/download/v1.0-beta2/Captionist-1.0-beta2.dmg" length="3077418" type="application/octet-stream" sparkle:edSignature="Mq1br1ftx+n6yL2buPAQee8ctxj8zMSnXIvno0xOpLZUH200GRCqyV5Rm5zjMlKotKEIvIBYFvNedsoQ3dLYAQ=="/>
+    </item>
+  </channel>
+</rss>
