@@ -3,6 +3,35 @@
   <channel>
     <title>Captionist</title>
     <item>
+      <title>Captionist 1.0 β3</title>
+      <pubDate>Tue, 10 Nov 2026 17:09:10 GMT</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0 β3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+  <li>The Extract / Clean &amp; Translate switch is redesigned for macOS 26 and later, so it no longer looks cut off. ⌘1 and ⌘2 switch between them.</li>
+  <li>The toolbar holds only that switch now. Open files with the Open… or Open Another… button in the window, ⌘O, or by dragging them in.</li>
+  <li>The language code choice next to &quot;Save as&quot; shows the codes of the track you're extracting, for example en and eng for English, instead of always de and deu.</li>
+  <li>The &quot;Support Captionist&quot; button opens the new website, captionist.ianbauters.be.</li>
+  <li>Learned characters: the &quot;Which character is this?&quot; window has an Italic switch (Command-I). Italic text comes out as &lt;i&gt;…&lt;/i&gt; in the SRT, and the Characters window can make a character italic or upright.</li>
+  <li>Learned characters: letters that touch (like &quot;rw&quot;) can be split. Choose Split… (Command-S), put the line where they meet, and teach each letter on its own. After that, Captionist splits touching letters it knows by itself.</li>
+  <li>Much better I/l repair, both while reading and with &quot;Fix common OCR errors&quot;: l'm, l'll, l've, l'd, You'II, a lone l before punctuation, and words like Iike, Iamp and Iong (checked against the Mac's dictionary, so If, It and names stay as they are). On a full film with learned characters it fixed 97 lines, with no wrong changes.</li>
+  <li>The Save to label no longer breaks over two lines in a narrow window. The learned characters link now sits under Recognition.</li>
+  <li>Fixed: Captionist could stop by itself while reading a long 4K film. It kept everything it had read from the disk in memory until the job ended; now it lets go as it goes.</li>
+  <li>Closing the window while jobs run no longer asks the same question again and again. Captionist keeps working in the background and shows how far it is on its Dock icon. Click the Dock icon to bring the window back.</li>
+  <li>Automatic reading fixes more of Apple's slips: &quot;/ know&quot; becomes &quot;I know&quot;, music notes read as ¿, &amp; or s become ♪ (Spanish questions with ¿…? are left alone), and &quot;[customerl&quot; becomes &quot;[customer]&quot;.</li>
+  <li>Removing speaker labels now also catches names written normally, like &quot;Avram:&quot;, when the same name appears more than once.</li>
+  <li>Learned characters: the question window has keys for characters many keyboards don't have, like ♪, ¿, ¡, curly quotes, dashes and accented letters (with a Capitals switch), plus More Characters… for the Mac's Character Viewer.</li>
+  <li>Extract can clean in the same step: tick &quot;Clean afterwards&quot; and the new SRT is cleaned right after reading, with the options from Clean &amp; Translate.</li>
+  <li>Several films in a row: drop them together (or add more while one is open) and they line up under Up next. Extract opens the next film with the same tracks ticked, or choose Extract All to queue every film at once with the same choices.</li>
+  <li>Captionist no longer reads your AI key while starting up. Until the app is signed by Apple, macOS asks for your password after an update before handing over the key; that question could hide behind other windows and make Captionist look frozen. Now it only asks when you open Clean &amp; Translate.</li>
+  <li>Reading subtitles from a large MKV is much faster, especially from a NAS or external drive: Captionist now only reads the small parts of the file around the subtitles, instead of the whole film several times over.</li>
+  <li>The Dock percentage is now as large as HandBrake's, so you can read it at a glance.</li>
+  <li>More reading fixes: &quot;Ill&quot; becomes &quot;I'll&quot;, lone words read in capitals (&quot;NO.&quot;, &quot;AW.&quot;) become &quot;No.&quot; and &quot;Aw.&quot;, four dots become three, and two speakers are marked the same way throughout a file (&quot;-How?&quot; or &quot;- How?&quot;, whichever the file uses most).</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/IanBauters/captionist-updates/releases/download/v1.0-beta3/Captionist-1.0-beta3.dmg" length="2008760" type="application/octet-stream" sparkle:edSignature="RN46r3/mFQhOhpeBP7YTmxM34cDtp+bXW+PPVY1eq7cqkPHP1+oNMBs2PwsjRDo2S5MUsxdDmuGFvlpE125nDQ=="/>
+    </item>
+    <item>
       <title>Captionist 1.0 β2</title>
       <pubDate>Sat, 07 Nov 2026 14:52:50 GMT</pubDate>
       <sparkle:version>2</sparkle:version>
