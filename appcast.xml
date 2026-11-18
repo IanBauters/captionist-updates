@@ -3,6 +3,23 @@
   <channel>
     <title>Captionist</title>
     <item>
+      <title>Captionist 1.0 β4</title>
+      <pubDate>Wed, 18 Nov 2026 15:43:28 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0 β4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+  <li>Translating keeps names the same throughout a film. Before it starts, Captionist settles once how each name is written in the language you translate into (Menelaos or Menelaus, Ithaka or Ithaca), and every part of the film uses that spelling.</li>
+  <li>Translating a whole film costs less with services that can remember the instructions between requests: the instructions sent with every part of the film are now reused instead of paid for in full each time.</li>
+  <li>The &quot;How to open&quot; note in the disk image now puts the clean copy of Captionist in Applications itself.</li>
+  <li>The Extract / Clean &amp; Translate switch is now Apple's own Liquid Glass control on macOS 26, no longer squeezed into a second pill. The model menu has one arrow instead of two.</li>
+  <li>New: subtitles from speech. For films and series without subtitles, Captionist listens to the dialogue and writes the subtitles itself, with Apple's speech recognition on your Mac (macOS 26). It reads DTS, DTS-HD, Dolby TrueHD, Dolby Digital, AAC, FLAC and PCM sound, and only listens to the centre channel of 5.1 and 7.1 sound, where the dialogue is. Tick &quot;Translate into … afterwards&quot; to get a translation in the same go. Long sentences are cut into even parts at natural places (a comma, a pause, before &quot;and&quot; or &quot;that&quot;), no line runs over the set length, a subtitle stays up at most 6 seconds, and coughs and noises are left out. When translating, names that were misheard in several ways get one spelling, and two speakers in one subtitle get a dash each.</li>
+  <li>New: text subtitles that are already in an MKV (SRT, ASS/SSA and WebVTT) are listed under &quot;Text subtitles&quot; and saved as SRT in one click, without reading. ASS styling is dropped except italics and bold.</li>
+  <li>Everything Captionist does can now be scripted with AppleScript. New commands: &quot;save text subtitles&quot; (returns an empty list for a film without them, so a script can go through whole folders), &quot;make subtitles from speech&quot; (with &quot;spoken language&quot;, &quot;audio track&quot; and &quot;translating into&quot;) and &quot;list tracks&quot; (every subtitle and audio track and what Captionist can do with it). &quot;extract subtitles&quot; now also takes &quot;track&quot;, &quot;reading as&quot; and &quot;cleaning&quot;.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/IanBauters/captionist-updates/releases/download/v1.0-beta4/Captionist-1.0-beta4.dmg" length="3435768" type="application/octet-stream" sparkle:edSignature="eOm0UOnyhck4xntReBzjv1INaFUa9HU4srFqZAhiT/Ql7fwvCMGrCzvs29Nnk/DjlR1M1qLP1ZRyh4izBtFwAg=="/>
+    </item>
+    <item>
       <title>Captionist 1.0 β3</title>
       <pubDate>Tue, 10 Nov 2026 17:09:10 GMT</pubDate>
       <sparkle:version>3</sparkle:version>
